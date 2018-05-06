@@ -133,21 +133,3 @@ Starting from version 4.1, UAPP on DX150 can play PCM up to 32/192KHz bit perfec
 * Play through Android: unchecked
 * Android sample rate: Variable rate
 * Force 16-bit: unchecked
-
-To use along with [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md), for bit perfect PCM above 192KHz and DSD, including SACD ISO images:
-
-**USB audio:**
-* Upsample: Off
-* Bit perfect: On
-* DSD mode: Native DSD
-* High quality DSD conversion: unchecked
-
-**Volume:**
-* USB Volume control: None
-* Use volume rocker buttons: unchecked
-* Replay gain: No replay gain
-* Replay gain compensation: 0 dB
-
-**USB audio tweakes:**
-* Use USB DAC: checked
-* Free USB bandwidth after playback: checked
