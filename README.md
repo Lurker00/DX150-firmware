@@ -28,7 +28,7 @@ Flashing this firmware will not clean the user data. To return to the official f
 * Added **SuperSU** for those who need root access.
 * **Music detector**: it keeps Android in active state while music is playing, and prevents deep sleep for some minutes after the music has been stopped, to allow to resume playback by only pushing play/pause button. The default period is 5 minutes. You can change this value in the [***Settings***](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md#settings), ***Idle Timeout***. You don't need to keep USB Audio running for this feature.
 * Added support to mount exFAT and NTFS file systems by UUID, not as `default`. This allows to use microSD and a USB OTG disk at the same time, without problems.
-* A custom build of `libtinyalsa.so` to workaround a bug in Android, that caused `mediaserver` to crash. This problem was not visible for most users, because crashes and restarts happened on the background, between audio playbacks.<br />It allows [Neutron Music](https://play.google.com/store/apps/details?id=com.neutroncode.mp) to play DSD in DoP, and PCM up to 32/384kHz, transparently, without additional efforts. Native DSD playback up to DSD512 is supported for Neutron version 1.98.1 and higher.
+* A custom build of `libtinyalsa.so` to workaround a bug in Android, that caused `mediaserver` to crash. This problem was not visible for most users, because crashes and restarts happened on the background, between audio playbacks.<br />It allows [Neutron Music](https://play.google.com/store/apps/details?id=com.neutroncode.mp) to play DSD in DoP, and PCM up to 32/384kHz, transparently, without additional efforts. Native DSD playback up to DSD256 is supported for Neutron version 1.98.1 and higher.
 * Removed `rild` service and disabled any telephony and SMS services.
 * Battery level percentage indicator is back, and volume level indicator is visible at the lock screen.
 * Custom builds of Android Power, Lights and Vibrator [HAL](https://source.android.com/reference/hal/)s.
@@ -98,7 +98,7 @@ to reboot the device, or do it manually.
 The Mac specific steps above were derived from a [forum post by Likeimthere](https://www.head-fi.org/threads/791531/page-501#post-13649223).
 
 ## Recommended settings for Neutron Music Player
-Neutron Music Player automatically detects DX150 and is able to play PCM up to 32/768KHz and DSD up to DSD512 bit perfect, without a need to use [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md). The following settings are recommended for the version 2.01.0-AMD64:
+Neutron Music Player automatically detects DX150 and is able to play PCM up to 32/384KHz and DSD up to DSD256 bit perfect, without a need to use [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md). The following settings are recommended for the version 2.01.0-AMD64:
 
 **Replay Gain:** off<br />
 **64-bit Processing:** **on**<br />
