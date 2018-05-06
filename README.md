@@ -19,7 +19,7 @@ To flash the firmware, you need
 Flashing this firmware will not clean the user data. To return to the official firmware, just flash it per its instruction. You may only need to do a factory reset to get rid of icons of software, pre-installed in my firmware builds, but sometimes it's enough to delete them a usual way.
 
 ## Changes made
-* Added **Google Play Market**. It is not the latest version available, but it corresponds to the pre-installed Google Play Services. Can be disabled and enabled back via [***System settings***](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md#system-settings) of USB Audio app, along with Google Services (2.7.188L0+).
+* Added **Google Play Market**. It is not the latest version available, but it corresponds to the pre-installed Google Play Services. Can be disabled and enabled back via [***System settings***](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md#system-settings) of USB Audio app, along with Google Services.
 * **USB Mass Storage** to direct access of your microSD card when you connect DX150 to a computer. It replaces MIDI choice in the pull-down menu of USB connections. When selected, SD card is unmounted internally, and is not visible if you return back to MTP. It is mounted back right after disconnect from the computer.
 * Embedded [**USB Audio**](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md) application with advanced features, possible only for a built-in app. In its [***System settings***](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md#system-settings) you can disable Google services and Media scanner, and turn Android's Battery saver permanently on, to reduce background activity almost to zero level.
 * Embedded a special build of [**HibyMusic**](https://play.google.com/store/apps/details?id=com.hiby.music), compatible with USB Audio. All the required changes made by me, with kind permission of [HiBy Music](http://www.hiby.cd/index_en.aspx). This build may co-exist with official releases installed from Google PlayMarket.
@@ -75,7 +75,7 @@ Now DX150 should be in factory flash mode. Then type the following commands (pos
     rkflashtool v
     rkflashtool n
 
-to check if `rkflashtool` sees and recognizes your DX200.
+to check if `rkflashtool` sees and recognizes your device.
 
 ### Flash the firmware
 Change the current working directory in **Terminal** to one where you have unzipped firmware files, e.g.
@@ -96,7 +96,7 @@ to reboot the device, or do it manually.
 The Mac specific steps above were derived from a [forum post by Likeimthere](https://www.head-fi.org/threads/791531/page-501#post-13649223).
 
 ## Recommended settings for Neutron Music Player
-Neutron Music Player automatically detects DX200 and is able to play PCM up to 32/768KHz and DSD up to DSD512 bit perfect, without a need to use [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md). The following settings are recommended for the version 2.01.0-AMD64:
+Neutron Music Player automatically detects DX150 and is able to play PCM up to 32/768KHz and DSD up to DSD512 bit perfect, without a need to use [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md). The following settings are recommended for the version 2.01.0-AMD64:
 
 **Replay Gain:** off<br />
 **64-bit Processing:** **on**<br />
