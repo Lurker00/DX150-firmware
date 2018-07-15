@@ -2,7 +2,7 @@
 
 **DISCLAIMER:** No changes were made to the basic player functionality and behavior! Expect the same bugs and misbehavior found in the base stock firmware! **No warranty at all: use the modified firmware at your own risk and responsibility!**
 
-**WARNING:** The primary function of [**USB Audio**](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md) (turning XMOS chip into internally connected USB DAC) does not work as it should: USB DAC appears in the system and is recognized by applications, but playback produces no sound. I hope it will be fixed in future firmware builds.
+**WARNING:** The primary function of [**USB Audio** application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md) (turning XMOS chip into internally connected USB DAC) does not work as it should: USB DAC appears in the system and is recognized by applications, but playback produces no sound. I hope it will be fixed in future firmware builds. *This statement is not related to USB DAC mode of the player: USB DAC mode works perfectly! It is only about [**USB Audio** application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md)!*
 
 1. [Changes made](#changes-made)
 1. [Flash DX150 firmware using FactoryTool (Windows)](#flash-dx150-firmware-using-factorytool-windows)
