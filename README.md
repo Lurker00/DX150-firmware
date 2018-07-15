@@ -21,6 +21,15 @@ To flash the firmware, you need
 Flashing this firmware will not clean the user data. To return to the official firmware, just flash it per its instruction. You may only need to do a factory reset to get rid of icons of software, pre-installed in my firmware builds, but sometimes it's enough to delete them a usual way.
 
 ## Changes made
+* When the screen is turned off, CPU and RAM are running at reduced speed, to reduce power consumption. It adds more than a hour of typical continuous playback, compared to the official firmware.
+* Power consumption in suspend (deep sleep) mode significantly reduced in 2.10.275-L1.
+
+### Mango mode
+* **Pure Mango OS** mode added, exactly as in DX200. Please consult [DX200 User Manual](http://ibasso.com/uploadfiles/20170123/201701230405436442.pdf) for how to use it.
+
+***Note:*** This is exactly the same Mango player as in DX200! In particular, it lists and names *Digital Filter* settings according to DX200 hardware. In DX150, only first 5 of them have sense.
+
+### Android mode
 * Added **Google Play Market**. It is not the latest version available, but it corresponds to the pre-installed Google Play Services. Can be disabled and enabled back via [***System settings***](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md#system-settings) of USB Audio app, along with Google Services.
 * **USB Mass Storage** to direct access of your microSD card when you connect DX150 to a computer. It replaces MIDI choice in the pull-down menu of USB connections. When selected, SD card is unmounted internally, and is not visible if you return back to MTP. It is mounted back right after disconnect from the computer.
 * Embedded [**USB Audio**](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md) application with advanced features, possible only for a built-in app. In its [***System settings***](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md#system-settings) you can disable Google services and Media scanner, and turn Android's Battery saver permanently on, to reduce background activity almost to zero level.
