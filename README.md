@@ -22,7 +22,7 @@ Flashing this firmware will not clean the user data. To return to the official f
 
 ## Changes made
 * When the screen is turned off, CPU and RAM are running at reduced speed, to reduce power consumption. It adds more than a hour of typical continuous playback, compared to the official firmware.
-* Power consumption in suspend (deep sleep) mode significantly reduced in 2.10.275-L1.
+* Power consumption in Android's deep sleep mode significantly reduced in 2.10.275-L1.
 
 ### Mango mode
 * **Pure Mango OS** mode added, exactly as in DX200. Please consult [DX200 User Manual](http://ibasso.com/uploadfiles/20170123/201701230405436442.pdf) for how to use it.
