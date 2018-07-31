@@ -2,8 +2,6 @@
 
 **DISCLAIMER:** No changes were made to the basic player functionality and behavior! Expect the same bugs and misbehavior found in the base stock firmware! **No warranty at all: use the modified firmware at your own risk and responsibility!**
 
-**WARNING:** The primary function of [**USB Audio** application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md) (turning XMOS chip into internally connected USB DAC) does not work as it should: USB DAC appears in the system and is recognized by applications, but playback produces no sound. I hope it will be fixed in future firmware builds. *This statement is not related to USB DAC mode of the player: USB DAC mode works perfectly! It is only about [**USB Audio** application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md)!*
-
 1. [Changes made](#changes-made)
 1. [Flash DX150 firmware using FactoryTool (Windows)](#flash-dx150-firmware-using-factorytool-windows)
 1. [Flash DX150 firmware using rkflashtool (Mac/Linux)](#flash-dx150-firmware-using-rkflashtool-maclinux)
@@ -22,7 +20,7 @@ Flashing this firmware will not clean the user data. To return to the official f
 
 ## Changes made
 * When the screen is turned off, CPU and RAM are running at reduced speed, to reduce power consumption. It adds more than a hour of typical continuous playback, compared to the official firmware.
-* Power consumption in Android's deep sleep mode significantly reduced in 2.10.275-L1.
+* Power consumption in Android's deep sleep mode significantly reduced in 2.10.275-L2.
 
 ### Mango mode
 * **Pure Mango OS** mode added, exactly as in DX200. Please consult [DX200 User Manual](http://ibasso.com/uploadfiles/20170123/201701230405436442.pdf) for how to use it.
