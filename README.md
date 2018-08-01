@@ -57,7 +57,7 @@ FactoryTool is the official RockChip Windows application to flash firmware into 
 You need to download and unzip the firmware image file: the only file in the archive with `.img` extension. Then:
 1. Download [zip-archive](https://github.com/Lurker00/DX200-firmware/raw/master/tools/Rockchip_FactoryTool_v1.39.zip).
 2. Unzip it.
-3. Read and follow the instruction ("DX200 batch tool instruction.doc") inside the archive.
+3. Read and follow the instruction ("DX200-DX150 FactoryTool instruction.pdf") inside the archive.
 
 ## Flash DX150 firmware using rkflashtool (Mac/Linux)
 You need to have installed [rkflashtool version 6.1 or later](https://sourceforge.net/projects/rkflashtool/files/). For Lunux, you have to build it from the source code. For MacOS, you can build it yourself as well, but there are pre-built binaries, also in [Homebrew](http://brewformulas.org/Rkflashtool).
