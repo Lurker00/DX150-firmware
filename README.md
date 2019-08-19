@@ -105,14 +105,14 @@ to reboot the device, or do it manually.
 The Mac specific steps above were derived from a [forum post by Likeimthere](https://www.head-fi.org/threads/791531/page-501#post-13649223).
 
 ## Recommended settings for Neutron Music Player
-Neutron Music Player automatically detects DX150 and is able to play PCM up to 32/384KHz and DSD up to DSD256 bit perfect, without a need to use [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md). The following settings are recommended for the version 2.01.0-AMD64:
+Neutron Music Player automatically detects DX150 and is able to play PCM up to 32/384KHz and DSD up to DSD256 bit perfect, without a need to use [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md). The following settings are recommended for the version 2.10.0-AMD64:
 
 **Replay Gain:** off<br />
 **64-bit Processing:** **on**<br />
 **Automatic Gain Protection:** off<br />
 **Service:** off<br />
 **Audio Hardware:**
-* DSP Effect (Device): off
+* DSP Effect (Device): off (or set Filter and Gain for your taste)
 * Mono: off
 * Dither: off
 * Phase Inversion: off
@@ -121,9 +121,9 @@ Neutron Music Player automatically detects DX150 and is able to play PCM up to 3
 * Reverse Stereo: off
 * Hardware Gain: **on**
 * Audio Focus: **on**
-* CPU Wak Lock: **on**
-* Direct USB Driver: off
-* DSD, DSD over PCM (DoP): **on**; tap on this item, and Native DSD: **on**
+* Direct USB Access: off
+* DSD, DSD over PCM (DoP): **on**; tap on this item, and Native DSD: **on**, Volume Control: off
+* Oversampling: off
 * Follow Source Frequency: **on**
 
 ## Recommended settings for USB Audio Player Pro
