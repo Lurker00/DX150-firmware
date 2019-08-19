@@ -112,7 +112,7 @@ Neutron Music Player automatically detects DX150 and is able to play PCM up to 3
 **Automatic Gain Protection:** off<br />
 **Service:** off<br />
 **Audio Hardware:**
-* DSP Effect (Device): off (or set Filter and Gain for your taste)
+* DSP Effect (Device): set Filter and Output Gain for your taste.
 * Mono: off
 * Dither: off
 * Phase Inversion: off
